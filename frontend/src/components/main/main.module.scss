@@ -1,0 +1,9 @@
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+
+  @media (min-width: 980px) { // 960 + 10*2 (padding)
+    padding: 10px 0;
+  }
+}

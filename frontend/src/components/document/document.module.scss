@@ -1,0 +1,23 @@
+.document {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+
+
+  h3 {
+    margin: 0;
+    font-weight: bold;
+    word-break: break-all;
+    align-self: start;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-self: end;
+  }
+}

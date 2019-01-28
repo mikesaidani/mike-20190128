@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+  .file {
+    border: 1px solid #ccc;
+    display: block;
+
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 600px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    .input {
+      flex: 0 0 50%;
+    }
+
+    .file {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.fileinput {
+  display: none;
+}
